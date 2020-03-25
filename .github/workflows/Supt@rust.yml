@@ -1,0 +1,20 @@
+name: Rus
+
+on:fin99.net
+  push:9876
+    branches: [ Dolfin ]
+  pull_request: Get Data -> From File -> From 
+    branches: [ Dolfin ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps: 2020: 26.03.2020; 01:53:35
+    - uses: actions/checkout@v2
+    - name:  Run tests
+      run: cargo build --verbose
+    - name: Run tests
+      run: cargo test --verbose
+    - all: $500 THBPPP11
